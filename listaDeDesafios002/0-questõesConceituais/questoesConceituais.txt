@@ -1,27 +1,26 @@
-Questões conceituais
+    1 - O que são Classes?
+    R:
+      É uma forma de definir objetos e estruturas de código. Geralmente, as classes fornecem um modelo para a criação de objetos.
 
+    2 - O que são Atributos?
+    R:
+      Cada objeto possui atributos (property attributes). Eles se referem a descrições ou características específicas de cada objeto.
+   Atributos são variáveis de um objeto que armazenam valores ou funções.
 
-1) O que são Classes ?
-R:
+    3 - O que são Métodos?
+    R:
+      Métodos são funções associadas a objetos e são usados para definir o comportamento e as ações que podem ser realizadas com um objeto específico.
 
-//////////////////////////////////////////////////////////////////////////////
-2) O que são Atributos ?
-R:
+    4 - Qual a diferença entre Classe e Objeto?
+    R:
+      São conceitos abstratos que não existem na memória física, enquanto objetos são estruturas concretas que residem na memória durante a execução do programa.
 
-//////////////////////////////////////////////////////////////////////////////
-3) O que são Métodos ?
-R:
+    5 - O que significa "instanciar um objeto de uma classe"?
+    R:
+      A instanciação de um objeto de uma classe significa criar um objeto real na memória com base no conceito abstrato fornecido pela classe. 
+      Os objetos herdam as propriedades e métodos da classe.
 
-//////////////////////////////////////////////////////////////////////////////
-4) Qual a diferença entre Classe e Objeto ?
-R:
-
-//////////////////////////////////////////////////////////////////////////////
-5) O que significa “instanciar um objeto de uma classe” ?
-R:
-
-//////////////////////////////////////////////////////////////////////////////
-6) O que é e qual a finalidade de um “método Construtor” ?
-R:
-
-//////////////////////////////////////////////////////////////////////////////
+    6 - O que é e qual a finalidade de um "método Construtor"?
+    R:
+      O método construtor tem a finalidade de garantir que objetos de uma determinada classe sejam criados em um estado válido e consistente. Para atingir esse objetivo,
+      ele tem a capacidade de inicializar os atributos do objeto. Além disso, o construtor facilita a criação desses objetos, fornecendo métodos específicos com essa finalidade.
