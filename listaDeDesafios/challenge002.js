@@ -1,6 +1,6 @@
 // 1. Print all even numbers from 0 – 10
 console.log("DESAFIO 1")
-for (let num = 1; num <= 10; num++) {
+for (let num = 0; num <= 10; num++) {
   let par = num++;
   console.log(par);
 }
@@ -21,11 +21,11 @@ console.log("DESAFIO 3")
 // 3. Create a length converter function
 
 //codigo para aparecer no terminal 
-
+const valor_conversao_milhas = 1.6;
 const input = require('prompt-sync')({ sigint: true });
 
 const conversor = (km) => {
-  const mil = km / 1.6; // coverte os km em milhas  
+  const mil = km / valor_conversao_milhas; // coverte os km em milhas  
   return mil;
 };
 const resultKm = Number(input('digite a distância em Km que irá percorrer: '));
@@ -76,7 +76,20 @@ const numArrays = inverte([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]);
 console.log(numArrays);
 
 /////////////////////////////////////////////////////////////////////////////
+const matrizNegativa = [
+  [1, 2, 3],
+  [-5, -7, -9],
+  [0, 6, -8]
+];
+ let soma1 = 0;
 
+ for(let corredor = 0; corredor < matrizNegativa.length; corredor++){
+  for(let coluna = 0; coluna < matrizNegativa[corredor].length; coluna++){
+    soma += matrizNegativa[corredor][coluna];
+  }
+ }
+
+ console.log(soma1)
 console.log("DESAFIO 6")
 // 6. Sort an array from lowest to highest
 
