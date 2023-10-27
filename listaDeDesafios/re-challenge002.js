@@ -34,5 +34,6 @@ const matrizNegativa = [
 //  mas o valor será retornado como `undefined`, sendo assim com var você pode reatribuir o valor vária vezes, e ele 
 //  não respeita o escopo de bloco, podendo ser usado forra de uma função, condicionais e loops (caso seja escrito dentro de uma )
  
-//  LET: Já o let são variáveis com escopo de bloco, onde elas só serão vista dentro de onde foram declaradas, diferente 
-//  do var, em let não podemos acessar seu valor antes da declaração do código
+//  LET: Já o let são variáveis com escopo de bloco, onde elas só serão vista dentro de onde foram declaradas, diferente do var, em let não podemos acessar seu valor antes da declaração do código, tanto o var quanto let podem ser reatribuidas depois, porem let so funciona caso seja dentro do mesmo escopo.
+
+//  CONST: Contém semelhanças com o let em relação ao escopo de bloco, porém a grande diferença é que, uma vez que a váriavel é declarada ela não pode ser reatribuida a um novo valor de certo modo ela é uma váraiavel imutável, porém essa regra não se aplica a objetos e arrays, mas a própria várivel não pode ser apontada para outro objeto ou valor.
