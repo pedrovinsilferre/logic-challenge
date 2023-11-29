@@ -40,3 +40,34 @@
 
 // console.log(firstElement);
 // // Expected output: 1
+
+
+///////////////////////////////////////////////////////////////////////////////
+
+//Array.prototype.includes()
+
+// const array1 = [1, 2, 3];
+
+// console.log(array1.includes(2));
+// // Expected output: true
+
+// const pets = ['cat', 'dog', 'bat'];
+
+// console.log(pets.includes('cat'));
+// // Expected output: true
+
+// console.log(pets.includes('at'));
+// // Expected output: false
+ ////////////////////////////////////////////////////////////////////////////
+
+// JavaScript Demo: Array.find()
+
+//  const array1 = [5, 12, 8, 130, 44];
+
+//  const found = array1.find((element) => element > 10);
+ 
+//  console.log(found);
+//  // Expected output: 12
+ 
+
+ 

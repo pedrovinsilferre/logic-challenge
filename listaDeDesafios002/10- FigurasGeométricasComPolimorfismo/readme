@@ -1,0 +1,65 @@
+10) - Figuras geométricas com polimorfismo
+Crie 3 classes que representam figuras geometricas (shapes).
+Através do conceito de “abstração”, as classes “especializadas” Circle, Rectangle e Triangle herdam  de Shape.
+
+Utilizando polimorfismo, crie uma função chamada calculateTotalAreaOfShapes. Esta função deverá ser capaz de receber círculos, retângulos e outras figuras em um array de Shapes, e deverá somar a área de todos eles e imprimir  a soma na tela.
+
+A definição das classes é:
+
+
+class Shape {
+    area() {
+        return 0;
+    }
+    toString() {
+        return Object.getPrototypeOf(this).constructor.name;
+    }
+}
+
+class Circle extends Shape {
+    constructor(r) {
+        super();
+        this.radius = r;
+    }
+
+    area() {
+        return Math.PI * this.radius ** 2;
+    }
+}
+
+class Rectangle extends Shape {
+    constructor(w, h) {
+        super();
+        this.width = w;
+        this.height = h;
+    }
+
+    area() {
+        return this.width * this.height;
+    }
+}
+
+class Triangle extends Shape {
+    constructor(b, h) {
+        super();
+        this.base = b; 
+        this.height = h;
+    }
+
+    area() {
+        return this.base * this.height / 2;
+    }
+}
+
+A função a ser criada será:
+
+
+function calculateTotalAreaOfShapes(shapes) {
+	//.... implemente a lógica
+}
+
+A utilização da função se dará da seguinte forma:
+
+
+const shapes = [new Circle(3), new Rectangle(2, 3), new Triangle(3, 4), new Circle(2)];
+console.log(calculateTotalAreaOfShapes(shapes));
